@@ -796,7 +796,7 @@ function invText(){var c=$('#cur').value;return INV[c]||INV.INR}
 function renderInv(){$('#f-serious-t').textContent='After the first engagement with WOOP, if I am happy with the quality of the results, I am open to investing at least '+invText()+' over the next 12 months for the stated actions. *'}
 // Submit my campaign brief POSTs the brief to LEAD_ENDPOINT, which must email it to LEAD_EMAIL (see the tech brief).
 // With no endpoint set (preview only), the page opens a pre-filled email to LEAD_EMAIL instead.
-var LEAD_ENDPOINT='', LEAD_EMAIL='growth@woop.world', LEAD_CONTENT_TYPE='application/json';
+var LEAD_ENDPOINT='https://script.google.com/macros/s/AKfycbyjGYix4WQUHdKCRo2nUDt9CedRAreZ0luq8ipN0_8A3zQXwCoIaVHlIfjcalr1DtBP/exec', LEAD_EMAIL='growth@woop.world', LEAD_CONTENT_TYPE='text/plain;charset=utf-8';
 var progCur=false;
 var st={tab:'deep',q:'',needs:{mode:'later',vals:{}},b:{stages:{'new':true},acts:{},market:''}};
 st.b.acts.sample={price:'',vol:'1000',auto:false};
